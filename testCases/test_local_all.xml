@@ -10,7 +10,7 @@
 		<listener class-name="auto.common.listener.TestExecuteListener"></listener>
 	</listeners>
 
-	<test name="登录河姆渡" >
+	<test name="登录河姆渡商城" >
 		<classes>
 			<class name="auto.test.zdebug.LoginTestCase"></class>
 		</classes>
