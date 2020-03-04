@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="UI自动化测试" verbose="1" skipfailedinvocationcounts="true" preserve-order="true" >
+
+	<!--	测试监听-->
+	<listeners>
+		<!--	测试报告	-->
+		<listener class-name="auto.common.config.WebUIReports"/>
+		<!--	执行结果监听器	-->
+		<listener class-name="auto.common.listener.TestExecuteListener"></listener>
+	</listeners>
+
+	<test name="登录河姆渡" >
+		<classes>
+			<class name="auto.test.zdebug.LoginTestCase"></class>
+		</classes>
+	</test>
+
+
+</suite>
